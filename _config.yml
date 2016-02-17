@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Here There Be Dragons
+email: braden@brazenbraden.com
+description: > # this means to ignore newlines until "baseurl:"
+  I code for work, I code for passion, I code because I can. Every day
+  I come up against a new challenge and every day I learn something new.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://brazenbraden.github.io" # the base hostname & protocol for your site
+twitter_username: brazenbraden
+github_username:  brazenbraden
+timezone: Africa/Windhoek
+# safe: true
+
+# Build settings
+markdown: kramdown
