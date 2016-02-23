@@ -1,6 +1,6 @@
 ---
-layout: default
-title:  "New Adventures"
+layout: post
+title:  "New adventures"
 date:   2016-02-17 21:49:59 +0200
 categories: ramblings Jekyll
 ---
