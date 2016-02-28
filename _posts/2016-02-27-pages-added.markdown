@@ -15,4 +15,4 @@ on github but currently still a work in progress. Will keep you updated on that 
 Other plans for this blog include talking about Ruby on Rails, Vagrant, Docker and other cool and interesting
 technologies and tools which I have the privilege of working with. They really make development fun and simple
 especially when it comes to having to deploy production code. I will talk about my development environment, choice of IDEs,
-general work-flow and more. Exciting and fun times ahead!
+general work-flow and more. Exciting and fun times ahead!!
