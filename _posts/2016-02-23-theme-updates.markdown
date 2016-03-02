@@ -3,6 +3,7 @@ layout: post
 title:  "Not much but a theme update"
 date:   2016-02-23 22:25:59 +0200
 categories: ramblings Jekyll JuggleBee
+comments: true
 ---
 
 I've always liked the darcula theme ever since I first saw the option for it in RubyMine years ago

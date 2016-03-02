@@ -3,6 +3,7 @@ layout: post
 title:  "Added some pages"
 date:   2016-02-27 16:25:59 +0200
 categories: ramblings docker vagrant rubyonrails
+comments: true
 ---
 
 So I have finished (for now) with the [About Me](/about/index.html) and [My Projects](/projects/index.html) pages.

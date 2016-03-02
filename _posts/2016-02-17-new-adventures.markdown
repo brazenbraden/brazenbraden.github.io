@@ -3,6 +3,7 @@ layout: post
 title:  "New adventures"
 date:   2016-02-17 21:49:59 +0200
 categories: ramblings Jekyll
+comments: true
 ---
 
 Well today has been a day full of new and interesting things. Primarily, this very page you have glanced upon!
