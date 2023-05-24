@@ -4,7 +4,7 @@ layout: post
 title: Reading List
 crawlertitle: Ruby reading list
 summary: List of ruby / programming books I recommend
-date:   2020-06-14
+date: 2023-05-24
 categories: posts
 tags: ['resources']
 bg: "post-reading-list.jpg"
