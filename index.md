@@ -23,8 +23,6 @@ Started my own freelance web design (PHP & MySQL) company while at university, G
 
 Ruby, Ruby on Rails, TDD, BDD, PHP, HTML / HAML, (S)CSS, JavaScript, YAML, Mysql, PostgresQL, Neo4j, DynamoDB, MongoDB, AWS, Problem Solving, Leadership, Communication, Tutoring, Documentation, VIM, bash
 
-_**caveat:** these are all skills/technologies I have used in the past - some of them might be rusty now_
-
 ## Work Experience
 ### Lifestream (previously BigSofa Technologies Ltd)
 **Position:** Backend Tech Lead

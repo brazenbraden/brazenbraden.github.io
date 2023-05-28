@@ -1,5 +1,4 @@
 ---
-bg: "tools.jpg"
 layout: post
 title: Reading List
 crawlertitle: Programmers Reading List
