@@ -83,9 +83,11 @@ end
 ```
 The added benefit to doing it this way is that you now also have a plain old Ruby class that you can call independently and inline in your code elsewhere when the need arises. For instance, you may want to defer the processing using the job when you are handling a mass import of data, however, when being performed as a single HTTP request to your API, you wish to do it inline (although you probably do not want to be sending emails inline given our current example).
 
-The downside to this is that we now, however, have had to create an additional class to provide this flexibility. That means, if we wish to keep this convention going, for each Job class, there would be a corresponding UseCase class. What if we could take this idea one step further? What if we could turn our Job class into a plain old Ruby object right from the start? Let's rewrite our UpdateUserJob class.
+The downside to this is that we now, however, have had to create an additional class to provide this flexibility. That means, if we wish to keep this convention going, for each Job class, there would be a corresponding UseCase class. What if we could take this idea one step further? What if we could turn our Job class into a plain old Ruby object right from the start? Let's rewrite our `UpdateUserJob` class.
 
 ## The "runner" way (with POROs)
+
+Let's pretend you had never heard of Sidekiq or background queues, and you want to write some code to perform a specific task. For the sake of convention, I have ended the following class name with "Job" to match previous examples however by syntax definition, it is no longer what we would call a classic "job". It is now just a simple Ruby class (identical to our previous `UpdateUserUseCase`).
 ```ruby
 class UpdateUserJob
   def initialize(user_id, name, score)
@@ -101,7 +103,7 @@ class UpdateUserJob
   end
 end
 ```
-Now that we have that in place, we need to set up some sort of mechanism to have this code run by Sidekiq in the background. For that, we can introduce a simple class to wrap the sidekiq calls and allow us to inject our custom job class with its arguments. To not conflict with the Sidekiq namespace, I have created the `Runners` module which will run this code for me (side note: no matter what project I've worked on in the past, I always seem to use these "runner" style classes for various things).
+With that in place, we need to set up some sort of mechanism to have this code be run by Sidekiq in our background queue. For that, we can introduce a simple class to wrap the sidekiq calls, allowing us to inject our custom job class with its arguments. To not conflict with the Sidekiq namespace, I have created the `Runners` module which will run this code for me (side note: no matter what project I've worked on in the past, I always seem to use these "runner" style classes for various things).
 ```ruby
 module Runners
   class Sidekiq
