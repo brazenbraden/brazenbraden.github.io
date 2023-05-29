@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Better Sidekiq Classes
-crawlertitle: Sidekiq but testable
-summary: Better Sidekiq classes
+crawlertitle: Better Sidekiq Classes
+summary: Better Sidekiq Classes
 date: 2023-05-24
 categories: posts
 tags: ['sidekiq']
@@ -87,7 +87,7 @@ The downside to this is that we now, however, have had to create an additional c
 
 ## The "runner" way (with POROs)
 
-Let's pretend you had never heard of Sidekiq or background queues, and you want to write some code to perform a specific task. For the sake of convention, I have ended the following class name with "Job" to match previous examples however by syntax definition, it is no longer what we would call a classic "job". It is now just a simple Ruby class (identical to our previous `UpdateUserUseCase`).
+Let's pretend you had never heard of Sidekiq or background queues, and you want to write some code to perform a specific task. For the sake of convention, I have ended the following class name with "Job" to match previous examples however by syntax definition, it is no longer what we would call a classic "job". It is now just a Plain Old Ruby Object (PORO; identical to our previous `UpdateUserUseCase`).
 ```ruby
 class UpdateUserJob
   def initialize(user_id, name, score)
@@ -134,4 +134,4 @@ but if we want to delegate the processing to the background queue, we can send i
 Runners::Sidekiq.new.run(UpdateUserJob, 12, "bob", 5) # asap
 Runners::Sidekiq.new.run_in(5.minutes, UpdateUserJob, 12, "bob", 5) # delayed
 ```
-And that's pretty much it. You can now define your background job classes as plain old Ruby files, run them inline, or pass them over to Sidekiq to run in the background, and have the classes be easily testable at the same time. One caveat here is that all the job classes will need to follow the same convention of the `initialize` method accepting all the arguments (remember, with background jobs, do not pass in complex objects as arguments) and a `call` method (in this example; you could use `execute` or `process` or whatever default you prefer) to perform the business logic.
+And that's pretty much it. You can now define your background job classes as plain old Ruby objects, run them inline, or pass them over to Sidekiq to run in the background, and have the classes be easily testable. But when can we have our cake and eat it? There are a couple of caveats to be aware of. Firstly, the Sidekiq jobs will all be of the same type - you will have to use their arguments to identify specific ones; secondly, all the job classes will need to follow the same convention of the `initialize` method accepting all the arguments (remember, with background jobs, do not pass in complex objects as arguments) and a `call` method (in this example; you could use `execute` or `process` or whatever default you prefer) to perform the business logic. Credit to my friend [Kris](https://github.com/krzyczak) for the initial concept.

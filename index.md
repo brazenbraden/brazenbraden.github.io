@@ -14,7 +14,7 @@ Started my own freelance web design (PHP & MySQL) company while at university, G
 ## Linkipoos
 
 * [Downloadable CV](/assets/cv.pdf)
-* [LinkedIn](https://www.linkedin.com/in/bradenhmking/)
+* [LinkedIn](https://www.linkedin.com/in/bradenhmking/) _(preferred method of contact)_
 * [GitHub](https://github.com/brazenbraden)
 * [Hackerrank](https://www.hackerrank.com/BrazenBraden)
 * [Exercism](https://exercism.org/profiles/brazenbraden)
@@ -66,7 +66,7 @@ Assisted MSS in developing bespoke websites and web software solutions using the
 
 
 ### Griffin Studios
-**Position:** Sole ProprC
+**Position:** Sole Proprietor
 
 **Duration:** Feb 2008 - Feb 2011 _(3 yrs)_
 
@@ -81,7 +81,7 @@ Assisted MSS in developing bespoke websites and web software solutions using the
 Taught three subjects:
 - Electronics
 - Computer Hardware and Software
-- Data Communication and Networking
+- Data Networking and Communication
 
 Awarded a Certificate for attaining a 100% pass rate in Data Communication and Networking for my class of 2009.
 
