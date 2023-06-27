@@ -1,5 +1,4 @@
 ---
-bg: "tools.jpg"
 layout: post
 title: Memory Store and the Repository Pattern
 crawlertitle: Repository pattern with memory store
