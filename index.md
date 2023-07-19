@@ -24,10 +24,15 @@ Started my own freelance web design (PHP & MySQL) company while at university, G
 Ruby, Ruby on Rails, TDD, BDD, PHP, HTML / HAML, (S)CSS, JavaScript, YAML, Mysql, PostgresQL, Neo4j, DynamoDB, MongoDB, AWS, Problem Solving, Leadership, Communication, Tutoring, Documentation, VIM, bash
 
 ## Work Experience
+### Kallidus
+**Position:** Senior Backend Engineer
+
+**Duration:** July 2023 - Present
+
 ### Lifestream (previously BigSofa Technologies Ltd)
 **Position:** Backend Tech Lead
 
-**Duration:** May 2017 - Present
+**Duration:** May 2017 - July 2023
 
 - Successfully converted a monolithic Ruby on Rails application into a streamlined backend API utilizing microservices, resulting in the removal of over 40,000 lines of legacy code.
 - Developed and implemented various microservices, including a language transcription provider that leverages third-party transcription and translation services, a python-built facial recognition and obfuscation service using pre-trained YOLO data model, and a pipeline microservice responsible for batch processing media.
