@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git Conventions
+title: Git Conventions (part 1/3)
 crawlertitle: Git branch and commit conventions
 summary: Evolving git branching and commit conventions
 date:   2023-07-04
@@ -9,7 +9,7 @@ tags: ['git conventions']
 bg: "post-git-conventions.jpg"
 ---
 
-Over the last decade or so, I have had the opportunity to experiment with various git usage strategies and styles. Ranging from branch names, to pull request descriptions, a lot of time has been spent thinking about how to best describe our work to convey as much information clearly and concisely to others. There are a wealth of strategies or style guides on how to best utilise the git ecosystem but there is no silver bullet that solves all potential scenarios. What follows is an outline of some of the rules and guides I have incorporated into my daily git life which has best worked for my team and me. 
+Over the last decade or so, I have had the opportunity to experiment with various git usage strategies and styles. Ranging from branch names, to pull request descriptions, a lot of time has been spent thinking about how to best describe our work to convey as much information clearly and concisely to others. There are a wealth of strategies or style guides on how to best utilise the git ecosystem but there is no silver bullet that solves all potential scenarios. What follows is an outline of some of the rules and guides I have incorporated into my daily git life which has best worked for my team and me.
 
 This post is more evolving personal documentation than directed advice but there might be a nugget or two worth taking from it.
 
@@ -60,8 +60,8 @@ The commit subject, as seen below, has the convention of starting with the type 
 type: Summary of change
 
 # **--- Proposed Changes ---**
-# 
-# 
+#
+#
 # Issue / Task: [name](url)
 
 # --- COMMIT END --- (informational only, do not uncomment)
@@ -112,7 +112,7 @@ and later on, once having completed the work and getting the branch ready for re
 
 ## Closing Comments
 
-This is by no means the definitive git convention standard to employ and it is something that is continually evolving and morphing as I find myself working on new and different projects. Everyone's experience is different and must be dealt with accordingly but, perhaps there are a few nuggets here that could help you guide a more structured and concise git workflow. 
+This is by no means the definitive git convention standard to employ and it is something that is continually evolving and morphing as I find myself working on new and different projects. Everyone's experience is different and must be dealt with accordingly but, perhaps there are a few nuggets here that could help you guide a more structured and concise git workflow.
 
 To further the conventions, I have also put together standard workflows, processes, and templates when it comes to GitHub Pull Requests (PR) and Issues affecting code reviews, QA testing, and deployment, but that is a story for another post.
 
