@@ -11,7 +11,7 @@ bg: "post-git-conventions.jpg"
 
 Over the last decade or so, I have had the opportunity to experiment with various git usage strategies and styles. Ranging from branch names, to pull request descriptions, a lot of time has been spent thinking about how to best describe our work to convey as much information clearly and concisely to others. There are a wealth of strategies or style guides on how to best utilise the git ecosystem but there is no silver bullet that solves all potential scenarios. What follows is an outline of some of the rules and guides I have incorporated into my daily git life which has best worked for my team and me.
 
-This post is more evolving personal documentation than directed advice but there might be a nugget or two worth taking from it.
+*Disclaimer: This is an evolving document which has been altered and tuned over the years. It may not apply to you and your situation but perhaps there is a nugget or two here that could improve your workflow and developer happiness.*
 
 ## Branches
 99% of the time, code changes fall into one of a handful of categories/types. When creating a new branch, naming it something clear and meaningful can help other developers know at a glance what sort of changes are been introduced. It can also simplify finding a branch using tab completion locally when jumping between branches.

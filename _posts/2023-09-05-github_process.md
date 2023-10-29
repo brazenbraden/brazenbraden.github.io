@@ -11,7 +11,7 @@ bg: "post-github-conventions.jpg"
 
 My previous post on [GIT Conventions](https://brazenbraden.com/posts/git_conventions/) broke down various conventions around branching and committing code. As part of building a solid process around development, the next area to deal with is that of getting those branches and commits together for a merge and release. This is usually done via some sort of ticket on an issue tracker and code pull request. The following guide was developed as a collaborative effort with my team and lead to a more robust and progressive environment with improved communication and overall general happiness, even though it adds a little extra overhead.
 
-As stated previously, this is my own personal adaptation from various guides and resources out there and is a continually evolving document which can morph and change as our requirements do. Hopefully there is a nugget or two here that could help you improve your developer experience.
+*Disclaimer: This is an evolving document which has been altered and tuned over the years. It may not apply to you and your situation but perhaps there is a nugget or two here that could improve your workflow and developer happiness.*
 
 ## Development Documentation
 
