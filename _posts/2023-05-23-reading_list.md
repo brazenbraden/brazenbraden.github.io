@@ -65,7 +65,7 @@ Disclaimer, there is a wealth of incredible resources and books out there. The f
 
 <div style="width: 100%; display: inline-block;">
   <img src="{{site.images}}/reading_list/design_patterns_in_ruby.png" style="float: left; padding-right: 20px;"/>
-  <h3>Design Patters in Ruby</h3>
+  <h3>Design Patterns in Ruby</h3>
   <p>Takes a portion of the patterns from the book above and incorporates them into Ruby. Really helpful if you're struggling to understand the Java examples from above but it does only cover a portion of them therefore I recommending pairing this with the one above. That being said, it's really well written.</p>
   <p><a href="https://www.amazon.co.uk/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452" target="_blank">Find me on Amazon</a></p>
 </div>
