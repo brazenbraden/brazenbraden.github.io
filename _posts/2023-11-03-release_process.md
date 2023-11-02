@@ -3,7 +3,7 @@ layout: post
 title: Release Process (part 3/3)
 crawlertitle: Development release process
 summary: Evolving process around QA, merging and releasing to production
-date:   2023-10-30
+date:   2023-11-03
 categories: posts
 tags: ['release process']
 bg: "post-release-process.jpg"
