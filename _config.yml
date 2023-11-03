@@ -18,6 +18,12 @@ github_username:  brazenbraden
 disqus_username:
 timezone: Europe/London
 
+staticman_url: https://bb-sm-blog-comments.onrender.com/v3/entry/github/brazenbraden/brazenbraden.github.io/master/comments
+
+reCaptcha:
+  siteKey: "agr4FYHHMio7PjuS7y78PKhEa7uSyp2T"
+  secret: "frSpkKGzxlfTenzxzDQJEpFDKGW2wmHLrf0l7eYiim5pNqDPoQ9tp57ZkaN31FI7SPxHBnIdxnH/BUqHohz8bGP3M/rtFxPyFd/SoukHu5FLiXVfEGcu3oZz6I2OaluyQyYpTgdOOZqck7V2WCWr0xqNyy+DOIlu0rb/q3HHp6h0MRTbXLiG+K4qZZyfqUP2j4QF6BIx2FHe3NY4blKUQpOhl66CVpMOTkOKf7OJPYTGDqAHrerMBMGDFave3ZMhlZ7rj+PToZkIeWDNtgPQzZjNWoHqgZg/0m0QzPF14gTfi+/TG34k1LVpoOD2lTxE94/I/239rXzViyqU+H2ZOQ=="
+
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
@@ -38,3 +44,12 @@ sass:
   style: compressed
 
 images: '/assets/images'
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      comments: true
+      lock_comments: false
+

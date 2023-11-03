@@ -5,11 +5,10 @@ crawlertitle: Testing comments
 summary: Testing comments
 date:   2022-01-01
 categories: posts
-tags: ['']
+tags: ['test comments']
 bg: "post-release-process.jpg"
 ---
 
 Testing comments updated with updates staticman yml
 
-{% include comment_form.html %}
 

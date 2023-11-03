@@ -1,6 +1,6 @@
 comments:
   allowedFields: ["name", "email", "message"]
-  requiredFields: ["name", "email", "message"]
+  requiredFields: ["name", "message"]
   branch: "master"
   commitMessage: "Staticman comment added"
   filename: "comment-{@timestamp}"
@@ -15,6 +15,10 @@ comments:
   path: "_data/comments/{options.slug}"
   transforms:
     email: md5
+  reCaptcha:
+    enabled: true
+    siteKey: "agr4FYHHMio7PjuS7y78PKhEa7uSyp2T"
+    secret: "frSpkKGzxlfTenzxzDQJEpFDKGW2wmHLrf0l7eYiim5pNqDPoQ9tp57ZkaN31FI7SPxHBnIdxnH/BUqHohz8bGP3M/rtFxPyFd/SoukHu5FLiXVfEGcu3oZz6I2OaluyQyYpTgdOOZqck7V2WCWr0xqNyy+DOIlu0rb/q3HHp6h0MRTbXLiG+K4qZZyfqUP2j4QF6BIx2FHe3NY4blKUQpOhl66CVpMOTkOKf7OJPYTGDqAHrerMBMGDFave3ZMhlZ7rj+PToZkIeWDNtgPQzZjNWoHqgZg/0m0QzPF14gTfi+/TG34k1LVpoOD2lTxE94/I/239rXzViyqU+H2ZOQ=="
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
