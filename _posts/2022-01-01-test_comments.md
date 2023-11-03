@@ -9,7 +9,7 @@ tags: ['']
 bg: "post-release-process.jpg"
 ---
 
-Testing comments
+Testing comments updated
 
 {% include comment_form.html %}
 
