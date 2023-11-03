@@ -7,6 +7,7 @@ date: 2023-05-24
 categories: posts
 tags: ['resources']
 bg: "post-reading-list.jpg"
+comments: false
 ---
 
 Disclaimer, there is a wealth of incredible resources and books out there. The following list only contains the small subsection that I am currently consuming. Also, I have been collecting these books for a while so there may very well be newer / updated versions of them available so have a look before you decided to buy, if any of these inspire you.
