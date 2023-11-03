@@ -9,7 +9,7 @@ tags: ['']
 bg: "post-release-process.jpg"
 ---
 
-Testing comments updated
+Testing comments updated with updates staticman yml
 
 {% include comment_form.html %}
 
