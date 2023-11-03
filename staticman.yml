@@ -17,8 +17,8 @@ comments:
     email: md5
   reCaptcha:
     enabled: true
-    siteKey: "agr4FYHHMio7PjuS7y78PKhEa7uSyp2T"
-    secret: "frSpkKGzxlfTenzxzDQJEpFDKGW2wmHLrf0l7eYiim5pNqDPoQ9tp57ZkaN31FI7SPxHBnIdxnH/BUqHohz8bGP3M/rtFxPyFd/SoukHu5FLiXVfEGcu3oZz6I2OaluyQyYpTgdOOZqck7V2WCWr0xqNyy+DOIlu0rb/q3HHp6h0MRTbXLiG+K4qZZyfqUP2j4QF6BIx2FHe3NY4blKUQpOhl66CVpMOTkOKf7OJPYTGDqAHrerMBMGDFave3ZMhlZ7rj+PToZkIeWDNtgPQzZjNWoHqgZg/0m0QzPF14gTfi+/TG34k1LVpoOD2lTxE94/I/239rXzViyqU+H2ZOQ=="
+    siteKey: "6LcWD_EoAAAAAHdGmUNnovRBpg0L7lbCYQUwc9TQ"
+    secret: "BsyzrR9Fqw5XMl+TDCJvp9pBAIiAO46EyMeeRuJiUtnGPQzNcGAIvnaD7heDpsCjgXuat0bjSRym1cOqNrW8lR0hGS+D7GWjMLu/fYggiykdNHgC9FWEz0RNW4CV7AZbLwBpb170ZCO3JZoSE9gsXAh9y7EL0NvMij9LFtuCknqeCZzNpOvP+wgqGTqTcKmAzp7IIX6GRu/YDy/nBbrCeD6qB8m/e+/eQ2GJVVXlJsC2Wkx7HujeqQfG8ms/LcKfqzp7jUEVuNOXglxAZCLZ+uxR3TumJ2MwiGpwRR2X6YiQnHSyeGisq217UToexubFWNx3A+juEUaWbBz9VUKZZg=="
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
