@@ -21,6 +21,7 @@ timezone: Europe/London
 staticman_url: https://bb-sm-blog-comments.onrender.com/v3/entry/github/brazenbraden/brazenbraden.github.io/master/comments
 
 reCaptcha:
+  enabled: true
   siteKey: "6LcWD_EoAAAAAHdGmUNnovRBpg0L7lbCYQUwc9TQ"
   secret: "BsyzrR9Fqw5XMl+TDCJvp9pBAIiAO46EyMeeRuJiUtnGPQzNcGAIvnaD7heDpsCjgXuat0bjSRym1cOqNrW8lR0hGS+D7GWjMLu/fYggiykdNHgC9FWEz0RNW4CV7AZbLwBpb170ZCO3JZoSE9gsXAh9y7EL0NvMij9LFtuCknqeCZzNpOvP+wgqGTqTcKmAzp7IIX6GRu/YDy/nBbrCeD6qB8m/e+/eQ2GJVVXlJsC2Wkx7HujeqQfG8ms/LcKfqzp7jUEVuNOXglxAZCLZ+uxR3TumJ2MwiGpwRR2X6YiQnHSyeGisq217UToexubFWNx3A+juEUaWbBz9VUKZZg=="
 
