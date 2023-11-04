@@ -18,6 +18,11 @@ github_username:  brazenbraden
 disqus_username:
 timezone: Europe/London
 
+plugins: [jekyll-paginate]
+
+paginate: 10
+paginate_path: "/posts/page:num/"
+
 staticman_url: https://bb-sm-blog-comments.onrender.com/v3/entry/github/brazenbraden/brazenbraden.github.io/master/comments
 
 reCaptcha:

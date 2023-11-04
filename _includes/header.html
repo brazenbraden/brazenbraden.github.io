@@ -8,7 +8,9 @@
 
     {% for my_page in site.pages %}
       {% if my_page.active %}
-        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {%- unless my_page.url contains 'page' -%}
+          <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {% endunless %}
       {% endif %}
     {% endfor %}
 
