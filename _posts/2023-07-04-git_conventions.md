@@ -7,7 +7,6 @@ date:   2023-07-04
 categories: posts
 tags: ['git conventions']
 bg: "post-git-conventions.jpg"
-comments: false
 ---
 
 Over the last decade or so, I have had the opportunity to experiment with various git usage strategies and styles. Ranging from branch names, to pull request descriptions, a lot of time has been spent thinking about how to best describe our work to convey as much information clearly and concisely to others. There are a wealth of strategies or style guides on how to best utilise the git ecosystem but there is no silver bullet that solves all potential scenarios. What follows is an outline of some of the rules and guides I have incorporated into my daily git life which has best worked for my team and me.

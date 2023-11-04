@@ -7,7 +7,6 @@ date: 2023-05-24
 categories: posts
 tags: ['sidekiq']
 bg: "post-sidekiq.jpg"
-comments: false
 ---
 
 [Sidekiq](https://github.com/sidekiq/sidekiq) is pretty much the go-to solution for enqueuing jobs for background processing when working on a Ruby-based project. It's simple to implement, has a clear DSL, and is well-supported by common testing frameworks like RSpec. That being said, and I may be nitpicking, but the standard implementation examples do add a little extra overhead if you wish to be more flexible with your job business logic and additional test setup is required.

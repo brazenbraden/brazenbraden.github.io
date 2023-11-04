@@ -7,7 +7,6 @@ date:   2023-09-05
 categories: posts
 tags: ['issue and pull request conventions']
 bg: "post-github-conventions.jpg"
-comments: false
 ---
 
 My previous post on [GIT Conventions](https://brazenbraden.com/posts/git_conventions/) broke down various conventions around branching and committing code. As part of building a solid process around development, the next area to deal with is that of getting those branches and commits together for a merge and release. This is usually done via some sort of ticket on an issue tracker and code pull request. The following guide was developed as a collaborative effort with my team and lead to a more robust and progressive environment with improved communication and overall general happiness, even though it adds a little extra overhead.

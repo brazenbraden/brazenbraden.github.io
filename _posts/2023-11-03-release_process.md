@@ -7,7 +7,6 @@ date:   2023-11-03
 categories: posts
 tags: ['release process']
 bg: "post-release-process.jpg"
-comments: false
 ---
 
 After having followed the various conventions defined by our [Git](https://brazenbraden.com/posts/git_conventions/) and [GitHub](https://brazenbraden.com/posts/github_process/) processes, we should now be in a good place to take the code that has been produced, get it ready for QA, merge and release it. Every organisation will have their processes and workflows set around this, some good, some bad. I worked with my team to build a robust and practical release process which best suited our needs at the time, allowing for a quick development - QA - release lifecycle. We didn't quite achieve the continuous-release dream, but we got close.
