@@ -3,7 +3,7 @@ layout: post
 title: Better Sidekiq Classes
 crawlertitle: Better Sidekiq Classes
 summary: Better Sidekiq Classes
-date: 2023-05-24
+date: 2025-06-02
 categories: posts
 tags: ['sidekiq']
 bg: "post-sidekiq.jpg"
