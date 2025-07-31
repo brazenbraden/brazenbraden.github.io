@@ -6,103 +6,112 @@ crawlertitle: "About BrazenBraden"
 summary: "Who am I?"
 ---
 
-## My Programming Life in a Nutshell
-Started teaching myself QBASIC when I was 11. Having played Warcraft, my future profession was set - I wanted to make games. In school, learnt some Pascal and Delphi, got top in my class. BSc(InfoSys) was my degree of choice when entering Rhodes University. Picked up all sorts of new skills and languages including C#, ASM and Haskell. Had a single semester of web development (basic CSS and HTML) and I was hooked at the speed of thought to visual result. Game design was put on the back burner (for now).
+## About Me
 
-Started my own freelance web design (PHP & MySQL) company while at university, Giffin Studios. Moved to Mombasa a couple years later and worked with MSS (Media and Software Studio) doing more PHP via the Kohana Framework. Spent 5 years in Namibia at Westcosoft building a desktop application using XOJO while learning and rebuilding the application in Ruby on Rails. Built (and still maintain) [JuggleBee](https://jugglebee.com), the first online auction platform in Namibia. Needing a bigger challenge, decided to come to London and join the real rat race. Currently based in the UK, having worked at some fantastic companies such as LifeStream and Kallidus.
+I’m a backend-focused software engineer with over a decade of experience, specialising in Ruby on Rails and the art of untangling legacy codebases. I’ve spent the last several years helping teams rescue brittle systems, introduce testing, and modernise their infrastructure without burning everything to the ground. I care deeply about clean architecture, developer happiness, and leaving codebases better than I found them.
 
-## Linkipoos
+Outside of work, I’m a dad of two, a lifelong gamer, and the kind of guy who gets weirdly excited about deleting thousands of lines of obsolete code.
 
-* [Downloadable CV](/assets/cv.pdf)
-* [LinkedIn](https://www.linkedin.com/in/bradenhmking/) _(preferred method of contact)_
-* [GitHub](https://github.com/brazenbraden)
-* [Hackerrank](https://www.hackerrank.com/BrazenBraden)
-* [Exercism](https://exercism.org/profiles/brazenbraden)
+---
 
-## Skills
+## Links
 
-Ruby, Ruby on Rails, TDD, BDD, PHP, HTML / HAML, (S)CSS, JavaScript, YAML, Mysql, PostgresQL, Neo4j, DynamoDB, MongoDB, AWS, Problem Solving, Leadership, Communication, Tutoring, Documentation, VIM, bash
+* GitHub _(mostly private repos)_ -> [GitHub](https://github.com/brazenbraden)
+* LinkedIn -> [LinkedIn](https://www.linkedin.com/in/bradenhmking/)
+* JuggleBee -> [JuggleBee](https://www.jugglebee.com)
+
+---
+
+## Summary
+
+Senior backend engineer specialising in Ruby, with a strong focus on legacy codebases, architectural refactors, and sustainable development practices. Over the past five years, I've helped teams untangle complex systems, introduce test coverage and modern conventions, and regain control of their development workflow. I'm particularly effective in environments where the code is messy, brittle, or under-documented — bringing clarity, structure, and calm to the chaos.
+
+## Core Technologies
+
+Ruby on Rails, PostgreSQL, Sidekiq/SolidQueue, JavaScript (ES6+), jQuery, Docker, Redis, AWS (S3, SQS), Kamal, CI/CD (CircleCI, GitHub Actions), ActiveStorage
+
+---
 
 ## Work Experience
+
 ### Kallidus (Sapling Team)
+
 **Position:** Senior Backend Ruby Engineer
 
-**Duration:** July 2023 - May 2025
+**Duration:** July 2023 – May 2025
 
-**Revamped and optimised the CircleCI pipeline for our test suite, reducing build times from ~50 minutes to under 20 minutes.**
+**Revamped and optimised the CircleCI pipeline for our test suite, reducing build times from ~50 minutes to under 20 minutes**
 
-I restructured the pipeline from a single, heavily-parallelised job into multiple discrete jobs, categorised by test type, which enabled quicker reruns of failed tests. I introduced fast-running code quality checks (Reek, Rubocop) early in the pipeline, and implemented test coverage enforcement to prevent untested code from merging. These improvements significantly reduced CI credit usage, accelerated developer feedback loops, and improved code quality across the board.
+Restructured the pipeline from a single, heavily-parallelised job into multiple discrete jobs categorised by test type, which enabled quicker reruns of failed tests. Introduced fast-running code quality checks (Reek, Rubocop) early in the pipeline, and implemented test coverage enforcement to prevent untested code from merging. These improvements significantly reduced CI credit usage, accelerated developer feedback loops, and improved code quality across the board.
 
-**Refactored a legacy, unmaintainable reporting system into a clean, modular framework using the Builder design pattern.**
+**Refactored a legacy reporting system into a clean, extensible framework using the Builder pattern**
 
-Inherited complex, poorly structured code and incrementally transformed it into a robust and testable reporting foundation. This new architecture not only standardised how new reports were developed but significantly improved performance and maintainability. A new report I built using this approach was delivered in just a few weeks — demonstrating how the refactor accelerated development and enabled easier handoff to other engineers.
+Inherited complex, brittle code and incrementally transformed it into a robust, testable architecture. The new design standardised how reports were built and dramatically improved maintainability. A new report I implemented using this system was delivered in weeks, demonstrating how the refactor enabled faster development and cleaner handoff.
 
-**Led the transition to a trunk-based development workflow, streamlining releases and improving collaboration across engineering and QA.**
+**Led the transition to a trunk-based development workflow, streamlining releases and improving collaboration**
 
-Moved the team away from a slow, single-branch QA process to weekly releases on the main branch, significantly reducing QA overhead and enabling faster, more reliable delivery. Introduced git conventions for branch naming and commit messages, which integrated seamlessly with GitHub’s release tooling to generate automated changelogs. Documented the new workflow to ensure consistency and ease of adoption across the team.
+Moved the team from a slow, single-branch QA process to weekly releases on the main branch, reducing QA overhead and enabling faster, more reliable delivery. Established git conventions for branch naming and commit messages, integrated with GitHub to generate automated release notes, and documented the new workflow to ensure adoption across the team.
+
+---
 
 ### Lifestream (previously BigSofa Technologies Ltd)
+
 **Position:** Backend Tech Lead
 
-**Duration:** May 2017 - July 2023
+**Duration:** May 2017 – July 2023
 
-Successfully converted a monolithic Ruby on Rails application into a streamlined backend API utilizing microservices, resulting in the removal of over 40,000 lines of legacy code.
+**Re-architected a monolithic Rails platform into a scalable microservice-based system**
 
-Developed and implemented various microservices, including a language transcription provider that leverages third-party transcription and translation services, a python-built facial recognition and obfuscation service using pre-trained YOLO data model, and a pipeline microservice responsible for batch processing media.
+Led the transition from a tightly coupled legacy application to a modular API-driven architecture, retiring over 40,000 lines of legacy code. Designed and built a suite of microservices, including a language transcription engine (integrating multiple third-party providers), a Python-based facial recognition and anonymisation service using YOLO models, and a media processing pipeline for automated batch workflows.
 
-Implemented a standalone IDP and SSO gateway, as well as Neo4j to capture media data points for better insights, and DynamoDB to improve performance on loading project dashboard data.
+**Strengthened platform infrastructure with improved authentication and data architecture**
 
-Established and documented pull request, issue creation, design, review, merging, and deployment processes, and maintained a StackOverflow Teams knowledgebase.
+Implemented a standalone identity provider and SSO gateway to centralise authentication across services. Introduced Neo4j to model media relationships for deeper client insights and improved dashboard performance by integrating DynamoDB for frequently queried data.
 
-Facilitated a weekly developer meeting to promote knowledge sharing and team building, and designed the processes around the use of GitHub Projects to manage teams and sprints, including creating, scoping, timeboxing, and assigning tasks.
+**Defined and documented team workflows to improve collaboration and delivery**
 
-### JuggleBee
-**Position:** Cofounder and Developer
+Introduced structured processes for pull requests, issue tracking, design reviews, and deployments, helping the team ship faster without sacrificing quality. Designed the team’s GitHub Projects setup for task scoping, sprint planning, and timeboxing. Facilitated weekly dev meetings to promote knowledge sharing and maintained a StackOverflow Teams knowledge base to preserve team knowledge and improve onboarding.
 
-**Duration:** Mar 2014 - Present
+---
 
-Cofounder, developer and maintainer of JuggleBee (jugglebee.com), Namibia's online auction platform of choice.
+### JuggleBee  – [jugglebee.com](https://jugglebee.com)
 
-Technologies used:
-- Ruby on Rails
-- Postgresql
-- Redis
-- AWS S3 & SQS
+**Position:** Cofounder and Lead Engineer
+
+**Duration:** Mar 2014 – Present
+
+**Designed and launched Namibia’s first online auction platform, now serving over 13,000 users**
+
+Built JuggleBee from the ground up in collaboration with a business partner from the property auction world. Delivered a full-featured online marketplace where users can list both products and time-based auctions, complete with real-time bidding logic, secure checkout, and automated invoicing. Since launch, the platform has hosted over 12,000 listings and generated more than 5,000 invoices, establishing itself as a trusted digital marketplace in a previously offline-dominated industry.
+
+**Overhauled and modernised the full JuggleBee stack to bring it from Rails 4 to Rails 8**
+
+Led a comprehensive, production-safe upgrade of a legacy codebase spanning over a decade. Introduced modern Rails conventions, rewrote background processing from Sidekiq to SolidQueue, migrated file storage from CarrierWave to ActiveStorage with S3, and transitioned from a fragile VPS setup to a fully containerised Kamal deployment. Also rebuilt key areas of the app for maintainability, including controller refactors, credential management, and database migrations from PostgreSQL 9.4 to 17.
+
+---
 
 ### Westcosoft
-**Position:** Principal Software Developer
 
-**Duration:** Nov 2012 - Jan 2017 _(4 yrs, 2 mos)_
+**Position:** Lead Software Engineer
 
-- Expanded the legacy XOJO application adding new departments such as the Tire Workshop, Web Portal and HR system.
-- Implemented automated SMS integration.
-- Rebuilt the legacy XOJO application in Ruby on Rails.
+**Duration:** Nov 2012 – Jan 2017
 
-### Media & Software Studio (MSS)
-**Position:** Web Developer
+**Transitioned a sprawling desktop system to a modular Ruby on Rails architecture**
 
-**Duration:** Jan 2011 - Mar 2012 _(1 yrs, 2 mos)_
+Joined initially to develop modules in Xojo for a custom-built trucking ERP system, including workshop, tire management, and petty cash. As the limitations of the platform became clear, I helped evaluate alternative tech stacks and led the transition to Ruby on Rails, rebuilding the suite as a monolithic app structured with mountable engines to preserve modular boundaries.
 
-Assisted MSS in developing bespoke websites and web software solutions using the PHP based Kohana Framework.
+**Rebuilt core logistics tooling for workshop, finance, and fleet management**
 
+Designed and implemented multiple mission-critical modules from scratch, covering workshop operations, inventory control, tire lifecycle tracking, staff reimbursements, and more — all aimed at streamlining internal logistics for a growing trucking business.
 
-### Griffin Studios
-**Position:** Sole Proprietor
+**Drove a large-scale rewrite that laid the foundation for future Rails work**
 
-**Duration:** Feb 2008 - Feb 2011 _(3 yrs)_
+Although the project was ultimately shelved under a release-only-when-complete philosophy, the experience solidified my skills in Rails, domain modeling, and modular app design — and directly influenced the architecture behind JuggleBee.
 
-- Started my own Web development studio while at university.
-- Built numerous websites for residents and local companies in Grahamstown, primarily using PHP and MySQL.
+---
 
-### Eastcape Midlands College
-**Position:** Lecturer
+### Early Career
 
-**Duration:** Apr 2008 - Dec 2010 _(2 yrs, 8 mos)_
+**Taught and freelanced simultaneously before moving into agency work**
 
-Taught three subjects:
-- Electronics
-- Computer Hardware and Software
-- Data Networking and Communication
-
-Awarded a Certificate for attaining a 100% pass rate in Data Communication and Networking for my class of 2009.
-
+Before transitioning into Rails, I began my career in South Africa as a lecturer at EMC College, teaching Electronics, Computer Hardware and Software, and Data Networking & Communication. During that time, I also ran Griffin Studios, a freelance web design business focused on PHP and MySQL sites. After relocating to Kenya, I joined M&S Studio, where I continued building CMS-driven websites and deepened my experience in client-facing development.
