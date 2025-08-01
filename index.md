@@ -19,6 +19,7 @@ Outside of work, I’m a dad of two, a lifelong gamer, and the kind of guy who g
 * GitHub _(mostly private repos)_ -> [GitHub](https://github.com/brazenbraden)
 * LinkedIn -> [LinkedIn](https://www.linkedin.com/in/bradenhmking/)
 * JuggleBee -> [JuggleBee](https://www.jugglebee.com)
+* Email -> [hello@brazenbraden.com](mailto:hello@brazenbraden.com)
 
 ---
 
