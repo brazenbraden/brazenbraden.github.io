@@ -13,7 +13,7 @@ bg: "post-jugglebee-upgrade-part1.png"
 
 Fast forward to 2025. With the arrival of my daughter, I acquired a smattering of free time interspersed with sleepless nights. The perfect time to finally bite the bullet, bring JuggleBee into the 21st century (you know what I mean), and get these upgrades done. After much pondering and planning, only one realistic option remained... incremental upgrades would take months with constant patching between every version bump; I would have to take the leap from Rails 4.2 straight to Rails 8, with Ruby hopping from 2.2 to 3.4.3. It was quite the journey, and what follows is a breakdown of the challenges and learnings I made along the way.
 
-# Starting Fresh
+## Starting Fresh
 
 Not to blow my own horn or anything, but I was in a pretty good place with this migration plan. The codebase of JuggleBee was intentionally built with self-contained business logic components, defining a clear separation of concerns. The models and controllers were not overly bloated, with liberal usage of "service objects" performing the more complicated logic, and an added separation of logic between my controllers and views using the "view decorator" pattern. This architecture made the copy-pasta approach almost… dare I say… fun. But let’s not kid ourselves — a jump from Rails 4.2 to 8 is no walk in the park.
 
@@ -177,7 +177,7 @@ fi
 
 Honestly, this script could have kept soldiering on for years… until **Kamal** walked in like the cool new kid who makes your old tricks look ancient. It wasn’t broken — far from it — but Kamal is like having a personal DevOps engineer in your terminal. It takes all the things I cared about (Dockerized deploys, atomic releases, rollbacks) and adds extra superpowers I didn’t even realize I needed.
 
-### Introducing Kamal 2
+## Introducing Kamal 2
 
 Kamal is a server provisioning and deployment tool built specifically (but not limited to) Rails apps. It automates a ton of tasks that my script didn’t — and one of the most significant changes? **No more Nginx.**
 
