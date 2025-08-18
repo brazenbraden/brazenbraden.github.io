@@ -9,6 +9,10 @@ tags: ['jugglebee', 'rails']
 bg: "post-jugglebee-upgrade-part2.png"
 ---
 
+Now that we had a deployable app, I set up a staging server using my new favourite provider, [Hetzner](https://www.hetzner.com/) (*not a sponsor, lol*), spun it up, and witnessed a “fully functional” skeleton of JuggleBee. Stage 1 of the migration plan was complete.
+
+Now came the real meat and potatoes of the project — actually hydrating the new app with all of its production data. We’re talking over 50,000 images, countless database records, and security credentials… the works. This is the part where a missed step could mean broken listings, missing files, or downtime. No pressure.
+
 > In case you missed **Part 1**, we covered:
 > - Why I started fresh on **Rails 8** instead of doing incremental upgrades.
 > - Migrating core **models/controllers/services** to modern Rails conventions.
@@ -21,10 +25,6 @@ bg: "post-jugglebee-upgrade-part2.png"
 Now—back to the post.
 
 ---
-
-Now that we had a deployable app, I set up a staging server using my new favourite provider, [Hetzner](https://www.hetzner.com/) (*not a sponsor, lol*), spun it up, and witnessed a “fully functional” skeleton of JuggleBee. Stage 1 of the migration plan was complete.
-
-Now came the real meat and potatoes of the project — actually hydrating the new app with all of its production data. We’re talking over 50,000 images, countless database records, and security credentials… the works. This is the part where a missed step could mean broken listings, missing files, or downtime. No pressure.
 
 ## The Daunting Database Migration
 
