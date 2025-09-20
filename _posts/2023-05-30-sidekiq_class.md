@@ -135,7 +135,7 @@ module Runners
     end
   end
 end
-``````
+```
 
 And with that, we have everything we need to be able to throw plain old Ruby classes into the background for processing. If we wish to run our business logic inline, we simply run
 

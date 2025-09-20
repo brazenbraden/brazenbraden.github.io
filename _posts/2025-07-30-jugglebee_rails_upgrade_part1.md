@@ -86,7 +86,7 @@ to
 
 Even though `jQuery` is considered a bit long in the tooth, given the plethora of really solid UI frameworks like Vue and React, I opted to keep my reliance on it for the time being. It still works, is actively maintained, and trying to replace it now would be a whole new kettle of fish. An adventure for another day.
 
-## Background Jobs & Scheduling
+# Background Jobs & Scheduling
 
 This area was one of the biggest wins in the entire migration. JuggleBee had the “classic” background processing setup: **Sidekiq + Redis + whenever** (for cron). It worked fine for years, but it always felt a little… heavy, like lugging around a toolbox just to tighten a single screw. Sidekiq required its own container, Redis was a hungry beast that always felt like it was asking for more memory, and `whenever` meant fiddling with cron jobs and ensuring everything stayed in sync across deploys. It worked, but it was yet another moving part in an already aging stack.
 
@@ -120,7 +120,7 @@ EmailJob.perform("MyEmailClass", from: current_user.name, subject: "Hello there"
 
 It was one of those rare upgrades where less really is more. Dropping Redis and cron alone made this whole migration feel worth it.
 
-## Infrastructure & Deployment
+# Infrastructure & Deployment
 
 For years, deployment was powered by a custom shell script I wrote. It wasn’t flashy, but it was reliable and got the job done. It handled atomic releases, cleaned up old deployments, built Docker images, restarted containers, and even maintained a cache for faster updates. For a single-developer project like JuggleBee, it was the perfect balance of simplicity and control.
 
@@ -197,7 +197,7 @@ The impact of this was huge. I went from managing Docker builds, old release dir
 
 This wasn’t just a convenience win — it was a dependency detox. Between dropping Nginx here and killing Redis with SolidQueue earlier, my infrastructure got a lot lighter, faster, and cheaper to run. Kamal didn’t just evolve my old script — it rendered half of its logic unnecessary.
 
-## Half Way There
+# Half Way There
 
 With the new Rails 8 foundation in place, JuggleBee has already shed a lot of its old skin. We’ve modernized the models and controllers, swapped out a creaky asset pipeline for importmaps, retired Sidekiq, Redis, and cron in favor of SolidQueue, and traded a homegrown deployment script (solid as it was) for the convenience and power of Kamal 2. The app is lighter, faster to deploy, and much easier to maintain — but we’re not done yet.
 
