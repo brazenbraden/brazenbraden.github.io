@@ -36,15 +36,22 @@ type-name_of_branch
 
 The type is separated from the branch name with a `-` while the rest of the name is done in snake case (words separated by `_`)
 
+Alternatively, if using a task/issue tracking application, like JIRA or GitHub projects, it adds additional visibilty to include the issue/ticket number in with the branch, and using a `/` instead of `-` can aid in making the branch name a little easier to read, for example:
+
+```
+type/ticket#-name_of_branch
+```
+
 **Examples branch names:**
+
 ```
 feature-add_user_authentication
 fix-about_page_infinite_redirect
-test-user_name_validation
-style-switch_from_bootstrap_to_material_ui
-housekeeping-extract_auth_logic_into_service_object
-devops-upgrade_rails_to_2.6.5
-housekeeping-update_onboarding_docs
+
+// or
+
+feature/21-add_user_authentication
+fix/42-about_page_infinite_redirect
 ```
 
 ## Commits
@@ -54,10 +61,10 @@ Developing a structured format for our commit messages will clarify each commit'
 
 This is a sample commit template I have been using for a while now. As I try to keep my commits granular and bespoke, I define the first line leaving everything else commented out. However, if you are pushing up a commit that involves a lot of changes, perhaps references a specific issue or task item, or includes changes that could affect future development, it is recommended to flesh out the commit message with as much information as possible to help future you (or team members) get a clear picture of the work done by looking at your commit alone.
 
-The commit subject, as seen below, has the convention of starting with the type of work being committed (bug, feature, housekeeping, etc) all in lowercase, followed by a semicolon, space and commit message, starting capialised, in the imperative form, without any full stop at the end.
+The commit subject, as seen below, has the convention of starting with the type of work being committed (bug, feature, housekeeping, etc) all in lowercase, followed by a semicolon, space and commit message, starting capitalised, in the imperative form, without any full stop at the end.
 
 ```
-type: Summary of change
+type: [Ticket#](Optional) Summary of change
 
 # **--- Proposed Changes ---**
 #
@@ -97,10 +104,11 @@ git config --global commit.template ~/.gitmessage
 ```
 feature: Add user authentication
 fix: About page infinite redirect
-style: Add new icon pack
-test: User name validation
-housekeeping: Update onboarding docs
-devops: Upgrade rails to 2.6.5
+
+// or
+
+feature: [21] Adds user authentication
+fix: [42] About page infinite redirect
 ```
 
 Very often when jumping into a piece of work, I might not know right off the bat what the commit message will be as it tends to evolve as the work gets completed. In this case, I usually start my commit with something like
