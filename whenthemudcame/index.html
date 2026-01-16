@@ -1,0 +1,16 @@
+---
+bg: "when_the_mud_came.png"
+layout: default
+crawlertitle: "When The Mud Came"
+title: "When The Mud Came"
+summary: "When The Mud Came - Blog and Game Dev Log"
+active: "whenthemudcame"
+---
+
+{% assign items = site.whenthemudcame | sort: "date" | reverse %}
+{% for post in items %}
+  <article class="index-page">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+  </article>
+{% endfor %}

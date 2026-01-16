@@ -45,7 +45,7 @@ Let me show you how it works...
 At the heart of it all is the `Behaviour` class. Its role is simple but powerful: register UI components and apply them only when needed — and only on the elements that require them. Here's a high-level look at how it works under the hood:
 
 ```javascript
-// Note: classes didnt exist so the "Class" we're calling below is a custom implentation
+// Note: classes didnt exist so the "Class" we're calling below is a custom implementation
 Framework.Behaviour = new Class({
   filters: {},
   addFilter:function(name, instantiator){
@@ -67,7 +67,7 @@ Framework.Behaviour = new Class({
       }
     });
   },
-  // rest of the implentation ...
+  // rest of the implementation ...
 });
 ```
 

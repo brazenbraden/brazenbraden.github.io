@@ -51,6 +51,11 @@ sass:
 
 images: '/assets/images'
 
+collections:
+  whenthemudcame:
+    output: true
+    permalink: "/whenthemudcame/:year/:month/:day/:title"
+
 defaults:
   -
     scope:
