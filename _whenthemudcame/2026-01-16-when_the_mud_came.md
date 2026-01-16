@@ -18,7 +18,7 @@ I’ve always wanted to make a game. It’s what got me into software developmen
 - Designed for players who enjoy low-pressure, satisfying gameplay you can relax with at your own pace
 - The alpha demo features the first level, showcasing most core gameplay systems and mechanics
 - Big plans ahead: multiple locations, equipment upgrades, story threads, secrets, and references
-- Play the demo on itch.io: https://brazenbraden.itch.io/when-the-mud-came
+- Play the demo on itch.io: <a href="https://brazenbraden.itch.io/when-the-mud-came">https://brazenbraden.itch.io/when-the-mud-came</a>
 
 ## About "When The Mud Came"
 We all have our preferred gaming experiences. Some of us love sports or driving games. I’ve always been an FPS guy — popping heads down scope while hidden in the shadows. But with the expansion of my family, my free time (and ability to don headphones and lock into a solid gaming session) fizzled out.
@@ -76,4 +76,4 @@ I have big dreams for **"When The Mud Came"**. Multiple large locations, new equ
 
 There’s still a lot of work to do. This is an alpha demo after all, so bugs are expected. The shader and particle systems are functional, but I feel they need the most work. I’ve always intended the game to lean towards a more cartoony visual style. The Synty packs I’ve used work well for now, but I want to push the visuals further over time by creating more custom assets. As a programmer, the worlds of art, 3D modelling, particles, shaders and animation are all very new to me.
 
-For now, I will be constantly working on any issues and the gameplay systems. I hope you enjoy the alpha demo. If you do, please leave a comment on the itch.io page (https://brazenbraden.itch.io/when-the-mud-came) — and I’ll see you down the road.
+For now, I will be constantly working on any issues and the gameplay systems. I hope you enjoy the alpha demo. If you do, please leave a comment on the itch.io page (<a href="https://brazenbraden.itch.io/when-the-mud-came">https://brazenbraden.itch.io/when-the-mud-came</a>) — and I’ll see you down the road.
