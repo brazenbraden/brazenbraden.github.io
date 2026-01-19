@@ -9,7 +9,7 @@ tags: ['when the mud came']
 bg: "whenthemudcame/intro/post.png"
 ---
 
-I’ve always wanted to make a game. It’s what got me into software development in the first place. But bills have to be paid, and sometimes dreams have to be put on hold until you find the freedom to explore them. Thankfully, I found that time midway through 2025 due to an employee downsizing initiative. And so **"When the Mud Came"** slowly turned from a dream into a reality.
+I’ve always wanted to make a game. It’s what got me into software development in the first place. But bills have to be paid, and sometimes dreams have to be put on hold until you find the freedom to explore them. Thankfully, I found that time midway through 2025 due to a sudden freeing up of the calendar. And so **"When the Mud Came"** slowly turned from a dream into a reality.
 
 <img src="{{site.images}}/whenthemudcame/intro/main_menu.png" style="float: left;"/>
 
