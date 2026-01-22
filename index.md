@@ -14,6 +14,29 @@ Outside of work, I’m a dad of two, a lifelong gamer, and the kind of guy who g
 
 ---
 
+## Current Personal Project: *When The Mud Came*
+
+Alongside my professional work, I’m currently developing a small solo game project called *When The Mud Came* — a stylised cleaning game built from scratch in Unity.
+
+This isn’t a career pivot into “game developer” so much as a deliberate challenge: stepping into an unfamiliar domain and applying the same principles I value in backend work — clear architecture, incremental progress, and respect for long-term maintainability.
+
+The project has involved:
+- Learning a new engine and toolchain from first principles
+- Designing and implementing complex systems (state, progression, rendering, performance) without existing scaffolding
+- Iterating in public, gathering feedback, and refining based on real-world use rather than theory
+- Taking a fuzzy creative idea and turning it into something concrete, playable, and evolving
+
+The current public prototype is intentionally rough, but fully playable, and acts as a proving ground for the core loop and systems. I’ve also published a public roadmap to make the project’s direction transparent without over-promising on timelines.
+
+You can explore the project here:
+- Blog and dev log: [/whenthemudcame](https://www.brazenbraden.com/whenthemudcame/)
+- Prototype & updates: [https://brazenbraden.itch.io/when-the-mud-came](https://brazenbraden.itch.io/when-the-mud-came)
+- Public roadmap: [https://github.com/users/brazenbraden/projects/4](https://github.com/users/brazenbraden/projects/4)
+
+More than anything, this project demonstrates how I approach unfamiliar problems: with curiosity, discipline, and a willingness to do the unglamorous work required to make something solid.
+
+---
+
 ## Links
 
 * GitHub _(mostly private repos)_ -> [GitHub](https://github.com/brazenbraden)
