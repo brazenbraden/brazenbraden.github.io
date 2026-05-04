@@ -1,0 +1,26 @@
+{% assign gallery_id = include.id | default: "gallery" %}
+
+<div class="post-gallery">
+  {% for image in include.images %}
+    <a
+      href="{{ image.full | relative_url }}"
+      class="post-gallery__item glightbox"
+      data-gallery="{{ gallery_id }}"
+      data-title="{{ image.title | escape }}"
+      data-description="{{ image.caption | escape }}"
+      data-type="image"
+    >
+      <img
+        src="{{ image.thumb | default: image.full | relative_url }}"
+        alt="{{ image.alt | escape }}"
+        loading="lazy"
+      >
+
+      {% if image.caption %}
+        <div class="post-gallery__caption">
+          {{ image.caption }}
+        </div>
+      {% endif %}
+    </a>
+  {% endfor %}
+</div>

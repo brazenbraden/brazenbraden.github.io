@@ -1,0 +1,73 @@
+.feature-split {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  grid-template-areas: "media body";
+  gap: 1.5rem 2rem;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.feature-split--right {
+  grid-template-areas: "body media";
+}
+
+.feature-split__media,
+.feature-split__body {
+  min-width: 0;
+}
+
+.feature-split__media {
+  grid-area: media;
+  margin: 0;
+}
+
+.feature-split__body {
+  grid-area: body;
+}
+
+.feature-split__title {
+  margin-top: 0;
+}
+
+.feature-split__link {
+  display: block;
+}
+
+.feature-split__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  background: #fff;
+  box-shadow: 0 0.65rem 1.75rem rgba(20, 20, 20, 0.12);
+}
+
+.feature-split__body > :last-child {
+  margin-bottom: 0;
+}
+
+.batterbee-logo-banner {
+  width: min(100%, 420px);
+  aspect-ratio: 4 / 1;
+  margin: 2.25rem auto 3rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.92);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: 0 1rem 2.25rem rgba(20, 20, 20, 0.18);
+}
+
+.batterbee-logo-banner--end {
+  margin: 2.5rem auto 2rem;
+}
+
+@media (max-width: 799px) {
+  .feature-split,
+  .feature-split--right {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "media"
+      "body";
+  }
+}

@@ -9,8 +9,8 @@ layout: compress
   <body>
     <div id="shadow"></div>
 
-      {% include header.html %}
-      {% include aside.html %}
+    {% include header.html %}
+    {% include aside.html %}
 
     <main class="content-wrapper blog-content">
       {{ content }}
@@ -18,5 +18,20 @@ layout: compress
 
     {% include footer.html %}
 
+    <script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.1/dist/js/glightbox.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (window.glightbox) {
+        window.glightbox.destroy();
+      }
+
+      window.glightbox = GLightbox({
+        selector: '.glightbox',
+        touchNavigation: true,
+        loop: true,
+        zoomable: true
+      });
+    });
+    </script>
   </body>
 </html>

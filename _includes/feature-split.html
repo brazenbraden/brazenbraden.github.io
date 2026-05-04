@@ -1,0 +1,29 @@
+{% assign feature_id = include.id | default: include.title | slugify %}
+{% assign image_path = include.image | remove_first: "./" %}
+{% assign gallery_id = include.gallery_id | default: "batterbee-features" %}
+{% assign position = include.position | default: "left" %}
+
+<section class="feature-split feature-split--{{ position }}" id="{{ feature_id }}">
+  <figure class="feature-split__media">
+    <a
+      class="feature-split__link glightbox"
+      href="{{ image_path | relative_url }}"
+      data-gallery="{{ gallery_id }}"
+      data-title="{{ include.title | escape }}"
+      aria-label="Open image for {{ include.title | escape }}"
+    >
+      <img
+        class="feature-split__image"
+        src="{{ image_path | relative_url }}"
+        alt="{{ include.alt | default: include.title | escape }}"
+        loading="lazy"
+        decoding="async"
+      >
+    </a>
+  </figure>
+
+  <div class="feature-split__body">
+    <h3 class="feature-split__title">{{ include.title }}</h3>
+    {{ include.content | markdownify }}
+  </div>
+</section>
