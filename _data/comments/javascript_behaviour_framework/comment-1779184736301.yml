@@ -1,0 +1,22 @@
+_id: 59336d10-5369-11f1-82de-45e8db74ef1e
+_parent: 'https://brazenbraden.com/posts/javascript_behaviour_framework/'
+replying_to_uid: ''
+message: >-
+  Very cool! I really like the cave-painting analogy; this framework clearly has
+  a body and a head, and 4 sticks pointing down. It's not as polished as <insert
+  modern framework> but it _is_ doing the same thing.
+
+
+  Considering the permanent hyper-fragmentation of how-to-js and wave after wave
+  of newest web-frameworks, it is remarkable to see certain patterns survive
+  throughout "generations" as others are obsoleted. Because they work, and
+  actually solve the problem.
+
+
+  There is also something charming about the old, pre-class, pre-npm style of
+  javascript. Because what is a constructor other than a function that assigns
+  properties to a new object?
+name: Rasmus
+email: ''
+hp: ''
+date: 1779184736
