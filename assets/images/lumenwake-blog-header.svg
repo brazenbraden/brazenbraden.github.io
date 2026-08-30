@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Lumenwake blog header</title>
+  <desc id="desc">A luminous cyan creature drifts through a dark geometric ecosystem of glowing flowers while coral predators approach.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030511"/>
+      <stop offset="0.5" stop-color="#071126"/>
+      <stop offset="1" stop-color="#10091f"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#3868a0" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#071126" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.18" stop-color="#bfffff" stop-opacity="0.9"/>
+      <stop offset="0.48" stop-color="#4fe8ff" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#4fe8ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldGlow">
+      <stop offset="0" stop-color="#fff9cf" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#ffd35c" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffd35c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mintGlow">
+      <stop offset="0" stop-color="#dbffe9" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#69ffb5" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#69ffb5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lilacGlow">
+      <stop offset="0" stop-color="#f0e3ff" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#be89ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#be89ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coralGlow">
+      <stop offset="0" stop-color="#ff5c80" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff5c80" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur16" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="blur7" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <g id="spark">
+      <rect x="-8" y="-8" width="16" height="16" rx="2" transform="rotate(45)" fill="#4fe8ff" opacity="0.92"/>
+      <rect x="-3.5" y="-3.5" width="7" height="7" rx="1" transform="rotate(45)" fill="#f2ffff"/>
+    </g>
+
+    <g id="goldFlower">
+      <circle r="72" fill="url(#goldGlow)"/>
+      <g fill="#ffd35c" filter="url(#softGlow)">
+        <rect x="-8" y="-48" width="16" height="38" rx="8"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(45)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(90)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(135)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(180)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(225)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(270)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(315)"/>
+      </g>
+      <circle r="13" fill="#fff7c6"/>
+      <circle r="5" fill="#ffffff"/>
+    </g>
+
+    <g id="mintFlower">
+      <circle r="72" fill="url(#mintGlow)"/>
+      <g fill="#69ffb5" filter="url(#softGlow)">
+        <rect x="-8" y="-48" width="16" height="38" rx="8"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(51.4)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(102.8)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(154.2)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(205.6)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(257)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(308.4)"/>
+      </g>
+      <circle r="13" fill="#d9ffe8"/>
+      <circle r="5" fill="#ffffff"/>
+    </g>
+
+    <g id="lilacFlower">
+      <circle r="72" fill="url(#lilacGlow)"/>
+      <g fill="#be89ff" filter="url(#softGlow)">
+        <rect x="-8" y="-48" width="16" height="38" rx="8"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(60)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(120)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(180)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(240)"/>
+        <rect x="-8" y="-48" width="16" height="38" rx="8" transform="rotate(300)"/>
+      </g>
+      <circle r="13" fill="#efe2ff"/>
+      <circle r="5" fill="#ffffff"/>
+    </g>
+
+    <g id="hunter">
+      <circle r="66" fill="url(#coralGlow)"/>
+      <g fill="#ff5c80" filter="url(#softGlow)">
+        <rect x="-8" y="-38" width="16" height="76" rx="6" transform="rotate(18)"/>
+        <rect x="-8" y="-38" width="16" height="76" rx="6" transform="rotate(108)"/>
+      </g>
+      <circle r="17" fill="#21091c" stroke="#ff8aa2" stroke-width="3"/>
+      <circle r="5" fill="#ffcfda"/>
+    </g>
+  </defs>
+
+  <!-- Deep background -->
+  <rect width="1600" height="600" fill="url(#background)"/>
+  <ellipse cx="950" cy="320" rx="620" ry="330" fill="url(#haze)"/>
+  <ellipse cx="150" cy="510" rx="410" ry="170" fill="#15284e" opacity="0.17" filter="url(#blur16)"/>
+
+  <!-- Quiet title space on the left -->
+  <path d="M0 420 C240 345 375 418 585 330 S890 220 1120 290 S1410 410 1600 305" fill="none" stroke="#315b89" stroke-width="2" opacity="0.16"/>
+  <path d="M0 480 C220 405 400 490 615 395 S900 290 1165 370 S1430 470 1600 405" fill="none" stroke="#4f75a2" stroke-width="1.5" opacity="0.12"/>
+  <path d="M0 525 C300 475 405 535 650 465 S1020 385 1240 448 S1450 520 1600 490" fill="none" stroke="#2d527e" stroke-width="2" opacity="0.1"/>
+
+  <!-- Star field -->
+  <g fill="#dff7ff">
+    <circle cx="70" cy="84" r="2" opacity="0.45"/><circle cx="145" cy="198" r="1.5" opacity="0.7"/>
+    <circle cx="230" cy="62" r="1" opacity="0.55"/><circle cx="312" cy="144" r="2" opacity="0.35"/>
+    <circle cx="410" cy="91" r="1.5" opacity="0.7"/><circle cx="486" cy="231" r="1" opacity="0.5"/>
+    <circle cx="548" cy="46" r="2" opacity="0.48"/><circle cx="620" cy="151" r="1.5" opacity="0.62"/>
+    <circle cx="701" cy="83" r="1" opacity="0.7"/><circle cx="786" cy="190" r="2" opacity="0.4"/>
+    <circle cx="858" cy="59" r="1.5" opacity="0.75"/><circle cx="935" cy="126" r="1" opacity="0.5"/>
+    <circle cx="1020" cy="42" r="2" opacity="0.58"/><circle cx="1095" cy="196" r="1.5" opacity="0.43"/>
+    <circle cx="1170" cy="83" r="1" opacity="0.8"/><circle cx="1255" cy="138" r="2" opacity="0.4"/>
+    <circle cx="1330" cy="54" r="1.5" opacity="0.68"/><circle cx="1420" cy="205" r="1" opacity="0.6"/>
+    <circle cx="1518" cy="95" r="2" opacity="0.5"/><circle cx="1550" cy="348" r="1.5" opacity="0.55"/>
+    <circle cx="96" cy="355" r="1" opacity="0.5"/><circle cx="266" cy="304" r="1.5" opacity="0.4"/>
+    <circle cx="386" cy="514" r="2" opacity="0.38"/><circle cx="735" cy="536" r="1" opacity="0.62"/>
+    <circle cx="910" cy="486" r="1.5" opacity="0.5"/><circle cx="1196" cy="530" r="2" opacity="0.35"/>
+    <circle cx="1450" cy="550" r="1" opacity="0.7"/>
+  </g>
+
+  <!-- Distant dormant blooms -->
+  <g opacity="0.4" transform="translate(345 430)">
+    <circle r="42" fill="#304768" opacity="0.2"/>
+    <g fill="#415979">
+      <rect x="-5" y="-30" width="10" height="22" rx="5"/>
+      <rect x="-5" y="-30" width="10" height="22" rx="5" transform="rotate(60)"/>
+      <rect x="-5" y="-30" width="10" height="22" rx="5" transform="rotate(120)"/>
+      <rect x="-5" y="-30" width="10" height="22" rx="5" transform="rotate(180)"/>
+      <rect x="-5" y="-30" width="10" height="22" rx="5" transform="rotate(240)"/>
+      <rect x="-5" y="-30" width="10" height="22" rx="5" transform="rotate(300)"/>
+    </g>
+    <circle r="7" fill="#5b7395"/>
+  </g>
+
+  <!-- Awakened ecosystem -->
+  <g transform="translate(1110 174) scale(0.74)"><use href="#lilacFlower"/></g>
+  <g transform="translate(1325 450) scale(1.04)"><use href="#goldFlower"/></g>
+  <g transform="translate(850 478) scale(0.82)"><use href="#mintFlower"/></g>
+
+  <!-- Sparks and their glows -->
+  <g>
+    <circle cx="650" cy="235" r="42" fill="url(#cyanGlow)" opacity="0.45"/><g transform="translate(650 235)"><use href="#spark"/></g>
+    <circle cx="785" cy="156" r="35" fill="url(#cyanGlow)" opacity="0.32"/><g transform="translate(785 156) scale(0.75)"><use href="#spark"/></g>
+    <circle cx="970" cy="350" r="35" fill="url(#cyanGlow)" opacity="0.3"/><g transform="translate(970 350) scale(0.68)"><use href="#spark"/></g>
+    <circle cx="1205" cy="294" r="32" fill="url(#cyanGlow)" opacity="0.3"/><g transform="translate(1205 294) scale(0.64)"><use href="#spark"/></g>
+  </g>
+
+  <!-- Player trail -->
+  <g transform="rotate(-13 770 315)">
+    <rect x="565" y="302" width="72" height="26" rx="13" fill="#4fe8ff" opacity="0.05" filter="url(#blur7)"/>
+    <rect x="605" y="306" width="54" height="18" rx="9" fill="#4fe8ff" opacity="0.08"/>
+    <rect x="646" y="309" width="42" height="12" rx="6" fill="#4fe8ff" opacity="0.14"/>
+    <rect x="680" y="311" width="32" height="9" rx="4" fill="#70efff" opacity="0.24"/>
+    <rect x="708" y="313" width="24" height="6" rx="3" fill="#a6f7ff" opacity="0.38"/>
+  </g>
+
+  <!-- Main player -->
+  <g transform="translate(775 300) rotate(22)">
+    <circle r="88" fill="url(#cyanGlow)" opacity="0.66"/>
+    <circle r="45" fill="#4fe8ff" opacity="0.13" filter="url(#blur7)"/>
+    <g fill="#4fe8ff" filter="url(#softGlow)">
+      <rect x="13" y="-7" width="34" height="14" rx="7"/>
+      <rect x="13" y="-7" width="34" height="14" rx="7" transform="rotate(120)"/>
+      <rect x="13" y="-7" width="34" height="14" rx="7" transform="rotate(240)"/>
+    </g>
+    <rect x="-16" y="-16" width="32" height="32" rx="5" transform="rotate(45)" fill="#f0ffff" filter="url(#softGlow)"/>
+    <rect x="-6" y="-6" width="12" height="12" rx="2" transform="rotate(45)" fill="#ffd35c"/>
+  </g>
+
+  <!-- Approaching hunters -->
+  <g transform="translate(1500 185) rotate(-24) scale(0.88)"><use href="#hunter"/></g>
+  <g transform="translate(1475 525) rotate(38) scale(0.62)" opacity="0.85"><use href="#hunter"/></g>
+  <g transform="translate(990 65) rotate(12) scale(0.48)" opacity="0.65"><use href="#hunter"/></g>
+
+  <!-- Foreground motes -->
+  <g fill="#78efff" filter="url(#softGlow)">
+    <circle cx="731" cy="256" r="3" opacity="0.65"/>
+    <circle cx="703" cy="350" r="2" opacity="0.45"/>
+    <circle cx="826" cy="364" r="3" opacity="0.55"/>
+    <circle cx="875" cy="297" r="2" opacity="0.5"/>
+    <circle cx="917" cy="405" r="2.5" opacity="0.52"/>
+  </g>
+
+  <!-- Subtle edge vignette -->
+  <rect x="1" y="1" width="1598" height="598" fill="none" stroke="#000000" stroke-width="42" opacity="0.24"/>
+</svg>
