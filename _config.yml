@@ -53,7 +53,7 @@ images: '/assets/images'
 
 collections:
   whenthemudcame:
-    output: true
+    output: false
     permalink: "/whenthemudcame/:year/:month/:day/:title"
 
 defaults:
@@ -63,4 +63,3 @@ defaults:
     values:
       comments: true
       lock_comments: false
-

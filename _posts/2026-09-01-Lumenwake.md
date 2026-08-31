@@ -9,7 +9,9 @@ tags: [AI, Game Dev, Ruby]
 bg: "lumenwake-blog-header.svg"
 ---
 
-What happens when you give an AI a game engine, an empty project, and complete creative freedom? In this case, it makes a small glowing creature collect light for flowers while being chased by angry coral geometry.
+What happens when you give an AI a game engine, an empty project, and complete creative freedom?
+
+In this case, it makes a small glowing creature collect light for flowers while being chased by angry coral geometry.
 
 The result is **Lumenwake**, a compact arcade game built with DragonRuby. You drift through a dark ecosystem, gather cyan sparks, carry them to dormant blooms, and try to awaken the entire arena before its predators extinguish you.
 
@@ -58,6 +60,10 @@ The important design decision was making the player's main objective **construct
 Many arcade games ask you to destroy every hostile object on screen. Lumenwake does not give you a weapon. The hunters are problems to route around, not targets to eliminate. Progress comes from changing the environment: every delivered spark turns a muted flower into a bright, animated bloom.
 
 This means the arena becomes a record of your run. At the beginning, it is dark and sparse. By the end, it is full of illuminated landmarks. The progress counter in the HUD is useful, but the world itself is the better progress bar.
+
+![A Lumenwake gameplay scene with a cyan player carrying sparks between glowing flowers while coral hunters close in]({{site.images}}/lumenwake/lumenwake-gameplay.svg)
+
+*The arena gradually becomes a luminous ecosystem—assuming the coral geometry does not eat you first.*
 
 The player can carry five sparks at a time. This creates a small but useful decision:
 
@@ -138,6 +144,10 @@ end
 From that one shape, the game builds most of its visual identity through layering, rotation, color, transparency, and motion.
 
 A flower, for example, places several thin rectangles around a circle. Add a glow behind them, rotate the arrangement slowly, pulse its radius, and suddenly the rectangles are not rectangles anymore. They are a strange luminous organism—or at least rectangles with excellent stage presence.
+
+![Four stages showing a solid rectangle transformed into a glowing procedural flower]({{site.images}}/lumenwake/lumenwake-flower-anatomy.svg)
+
+*The evolution of a rectangle: primitive, petal, suspiciously convincing flower.*
 
 ### Why the dark background?
 
@@ -349,6 +359,10 @@ Update order also matters. The current gameplay frame is approximately:
 8. Update visual effects.
 9. Spawn entities.
 10. Check for victory.
+
+![A diagram of the Lumenwake loop: collect sparks, choose a bloom, cross dangerous space, awaken the flower, and repeat]({{site.images}}/lumenwake/lumenwake-game-loop.svg)
+
+*Collect, deliver, survive, repeat—and ideally continue glowing.*
 
 Stopping after fatal damage is important. Imagine activating the final flower and dying on the same frame. Should the game call that victory or defeat?
 

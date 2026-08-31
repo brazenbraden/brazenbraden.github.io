@@ -149,6 +149,5 @@ I’m also developing a small solo game project called *When The Mud Came*, a st
 This is not a shift away from backend engineering. It is a deliberate side project in an unfamiliar domain, used to exercise the same principles I value in software work: clear architecture, incremental progress, systems thinking, and long-term maintainability.
 
 You can explore it here:
-- Blog and dev log: [/whenthemudcame](https://www.brazenbraden.com/whenthemudcame/){:target="_blank" rel="noopener noreferrer"}
 - Prototype and updates: [brazenbraden.itch.io/when-the-mud-came](https://brazenbraden.itch.io/when-the-mud-came){:target="_blank" rel="noopener noreferrer"}
 - Public roadmap: [github.com/users/brazenbraden/projects/4](https://github.com/users/brazenbraden/projects/4){:target="_blank" rel="noopener noreferrer"}
