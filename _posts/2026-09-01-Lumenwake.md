@@ -480,3 +480,5 @@ The result is not enormous. It does not contain a hundred levels, cinematic dial
 You are a small light in a dark place. Gather what glows. Carry it carefully. Wake the world before the world catches you.
 
 For a tiny game made from Ruby hashes and rotated rectangles, that feels like a good place to begin.
+
+[**Play it on Itch.io**](https://brazenbraden.itch.io/lumenwake){:target="_blank" rel="noopener noreferrer"}
